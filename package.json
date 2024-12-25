@@ -1,0 +1,20 @@
+{
+  "name": "default-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EmekaKezie/default-node-api.git",
+  "author": "EmekaKezie <emeka.kezie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.38.1"
+  },
+  "scripts": {
+    "start": "netlify dev"
+  }
+}
